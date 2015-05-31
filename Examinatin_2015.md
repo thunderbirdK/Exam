@@ -171,9 +171,9 @@ In standard unix permission models, the ownership of the files is an important c
 E.)
 
 1. Deleting Syslog entries
-	1.you have to have root level permission to execute these commands quite effective method and some times these files are stored in a different logging servers. you have to have full access in to that server as well.
+	1. you have to have root level permission to execute these commands quite effective method and some times these files are stored in a different logging servers. you have to have full access in to that server as well.
 2. Altering account logs
-	1. utmp, wtmp, and lastlog are the main targets of the attacker root level or credentials of a high level privileged user is required.
+	1. Clear bash history on the attacked account once command is issued it will be depicted in the command history. so that attacker will clear the command history. this can be executed in the user level.
 
 ## Question 4
 
