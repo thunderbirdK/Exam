@@ -169,8 +169,9 @@ Access control lists provides an additional, flexible permission setting for fil
 In standard unix permission models, the ownership of the files is an important component. Access to the files  and read, write, execute permission depends on the permissions given by the owner.
 
 E.)
+
 1. Deleting Syslog entries
-	1.you haveto have root level permission to execute these commandsquite effective and some times these files are stored in a different loggin server. you have to have full access in to that server as well.
+	1.you have to have root level permission to execute these commands quite effective method and some times these files are stored in a different logging servers. you have to have full access in to that server as well.
 2. Altering account logs
 	1. utmp, wtmp, and lastlog are the main targets of the attacker root level or credentials of a high level privileged user is required.
 
